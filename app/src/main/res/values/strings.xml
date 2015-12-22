@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="action_settings">Settings</string>
+    <string name="imageview_movie_item">Movie Image</string>
+    <string name="tv_title_movie_item">Title</string>
+    <string name="tv_description_movie_item">Description</string>
+    <string name="item_btn_close">Delete</string>
+</resources>
