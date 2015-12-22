@@ -21,8 +21,5 @@ public class Data {
     public int getImageId() {
         return imageId;
     }
-
-
-
 }
 

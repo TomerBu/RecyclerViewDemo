@@ -33,8 +33,8 @@ public class MovieRecyclerAdapter extends RecyclerView.Adapter<MovieViewHolder> 
         holder.title.setText(item.getTitle());
         holder.description.setText(item.getDescription());
         holder.imageView.setImageResource(item.getImageId());
-
-        animate(holder.itemView);
+        if (position != 0)
+            animate(holder.itemView);
     }
 
     @Override
@@ -47,11 +47,11 @@ public class MovieRecyclerAdapter extends RecyclerView.Adapter<MovieViewHolder> 
         super.onAttachedToRecyclerView(recyclerView);
     }
 
+
     // Insert a new item to the RecyclerView
     public void insert(int position, Data data) {
         list.add(position, data);
         notifyItemInserted(position);
-
     }
 
     // Remove a RecyclerView item containing the Data object
