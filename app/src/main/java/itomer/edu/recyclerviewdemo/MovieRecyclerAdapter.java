@@ -1,4 +1,4 @@
-package com.valdio.valdioveliu.recyclerview;
+package itomer.edu.recyclerviewdemo;
 
 import android.support.v4.view.ViewCompat;
 import android.support.v7.widget.RecyclerView;

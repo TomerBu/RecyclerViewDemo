@@ -1,4 +1,4 @@
-package com.valdio.valdioveliu.recyclerview;
+package itomer.edu.recyclerviewdemo;
 /**
  * RecyclerView position helper class for any LayoutManager.
  * Source code from:

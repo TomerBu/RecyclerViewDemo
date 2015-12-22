@@ -1,4 +1,4 @@
-package com.valdio.valdioveliu.recyclerview;
+package itomer.edu.recyclerviewdemo;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;

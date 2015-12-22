@@ -1,4 +1,4 @@
-package com.valdio.valdioveliu.recyclerview;
+package itomer.edu.recyclerviewdemo;
 
 
 public class Data {
